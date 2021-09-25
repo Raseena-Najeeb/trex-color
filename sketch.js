@@ -59,7 +59,7 @@ function setup() {
   ground = createSprite(width/2,height,width,2);
   ground.addImage("ground",groundImage);
   ground.x = width/2
-  ground.velocityX = -(6 + 3*score/100);
+  ground.velocityX = -(60 + 3*score/100);
   
   gameOver = createSprite(width/2,height/2- 50);
   gameOver.addImage(gameOverImg);
